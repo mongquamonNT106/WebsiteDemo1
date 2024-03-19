@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    height: 93px;
+    justify-content: space-between;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ticket{
+    color: black;
+    background-color: yellow;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 46px;
+    width: 190px;
+    font-size: 150%;
+    font-weight: bold;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.menu-search{
+    width: 300px;
+    margin-left: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    height: 36px;
+    
+}
+#icon {
+    background-image: url(./assets/ic-ticket.svg);
+    background-repeat: no-repeat;
+    background-position: 2px 3px;
+    align-items: center;
+    text-indent: 25px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+.menu_search-input{
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    border: none;
+    padding-left: 20px;
+}
+.login-logout{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    color: aliceblue;
+    text-decoration: underline;
+}
+.log{
+    font-size: 150%;
+}
+.select_theater{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 150px;
+    text-decoration: underline;
+    font-size: 140%;
+}
+.discount{
+    margin-left: auto;
+    margin-right: 50px;
+    text-decoration: underline;
+    font-size: 100%;
+}
+.introduction{
+    margin-right: 50px;
+    text-decoration: underline;
+    font-size: 100%;
+}
+.other{
+    margin-right: 50px;
+    text-decoration: underline;
+    font-size: 100%;
+
+}
+.main{
+    background-color: #0F172A;
+    height: "1vh";
+}
+.banner_1{
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.banner_2{
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.buy_ticket{
+    height: 40px;
+    width: 100px;
+    display: flex;
+    font-weight: bold;
+    font-size: 100%;
+    margin-left: 90px;
+    
+    border-radius: 4px;
+    background-color: yellow;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;    
+    color: black;
+}
+.title1{
+    font-size: larger;
+    margin-left: 55px;
+    color: white;
+}
+.title2{
+    font-size: revert-layer;
+    margin-left: 200px;
+    color: white;
+}
+.title3{
+    font-size: revert-layer;
+    margin-left: 170px;
+    color: white;
+}
+.title4{
+    font-size: revert-layer;
+    margin-left: 170px;
+    color: white;
+}
+.title5{
+    font-size: revert-layer;
+    margin-left: 110px;
+    color: white;
+}
+.title6{
+    font-size: revert-layer;
+    margin-left: 160px;
+    color: white;
+}
+.title7{
+    font-size: revert-layer;
+    margin-left: 150px;
+    color: white;
+}
+.title8{
+    font-size: revert-layer;
+    margin-left: 170px;
+    color: white;
+}
+.trailer1{
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+.trailer2{
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+.trailer3{
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+.trailer4{
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.on-going{
+    color: #fff;
+    margin-bottom:50px ;
+}
+.movie_2{
+    margin-left: 50px;
+}
+.moreinfo{
+    color: black;
+    background-color: yellow;
+    border-radius: 4px;
+    margin-left: 670px;
+    margin-right: 640px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-size: smaller;
+    font-weight: bold;
+}
+.premier{
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom:50px ;
+    font-size: 2em;
+}
+.discount{
+    color: #fff;
+    font-size: 2em;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+.dis1{
+    margin-left: 80px;
+    border-radius: 4px;
+}
+.contact{
+    color: #fff;
+    margin-top: 20px;
+    font-size: 2em;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    
+}
+.facebook{
+    margin-left: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 300%;
+    font-weight: bold;
+    background-color: blue;
+    margin-right: 900px;
+    border-radius: 8px;
+}
+.zalo{
+    margin-left: 900px;
+    margin-right: 100px;
+    color: white;
+    display: flex;
+    font-size: 300%;
+    font-weight: bold;
+    background-color: blue;
+    margin-right: 100px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+.boxcenter{
+    width: 50%;
+    margin: 0 auto;
+}
+.boxfooter1{
+    width: 2%;
+    float: left;
+    align-items: baseline   ;
+   
+}
+
+.boxfooter2{
+    width: 20%;
+    float: left;
+}
+.boxfooter3{
+    width: 25%;
+    float: left;
+}
+.boxfooter4{
+    width: 30%;
+    float: left;
+}
+.boxfooter5{
+    width: 30%;
+    float: left;
+}
+
