@@ -70,9 +70,11 @@
 }
 .select_theater{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    padding: 10px 50px;
+    margin-left: 150px;
+    text-decoration: underline;
+    font-size: 140%;
 }
 .discount{
     margin-left: auto;
@@ -96,15 +98,30 @@
     height: "1vh";
 }
 .banner_1{
+    margin-left: 70px;
     margin-top: 50px;
-    display: flex;
-    justify-content: center;
 }
 .banner_2{
     margin-left: 70px;
     margin-top: 50px;
 }
 
+.buy_ticket{
+    height: 40px;
+    width: 100px;
+    display: flex;
+    font-weight: bold;
+    font-size: 100%;
+    margin-left: 90px;
+    
+    border-radius: 4px;
+    background-color: yellow;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;    
+    color: black;
+}
 .title1{
     font-size: larger;
     margin-left: 55px;
@@ -176,23 +193,19 @@
     margin-left: 50px;
 }
 .moreinfo{
+    color: black;
+    background-color: yellow;
+    border-radius: 4px;
+    margin-left: 670px;
+    margin-right: 640px;
+    margin-top: 50px;
     display: flex;
     align-items: center;
     align-content: center;
     justify-content: center;
-    margin-top: 50px;
-}
-
-.moreinfo_detail {
-    color: black;
-    text-align: center;
-    background-color: yellow;
-    border-radius: 10px;
     font-size: smaller;
     font-weight: bold;
-    padding: 10px 40px;
 }
-
 .premier{
     color: #fff;
     margin-top: 100px;
@@ -247,36 +260,30 @@
     margin-top: 20px;
 }
 .boxcenter{
+    width: 50%;
     margin: 0 auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    font-size: 24px;
-    background-color: #011891;
-    color: white;
-    padding: 50px 0px;
+}
+.boxfooter1{
+    width: 2%;
+    float: left;
+    align-items: baseline   ;
+   
 }
 
-.boxfooter1{
-    width: 35%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .boxfooter2{
-    width: 16%;
+    width: 20%;
+    float: left;
 }
 .boxfooter3{
-    width: 16%;
+    width: 25%;
+    float: left;
 }
 .boxfooter4{
-    width: 16%;
+    width: 30%;
+    float: left;
 }
 .boxfooter5{
-    width: 16%;
-}
-
-.add {
-    margin-top: 30px;
+    width: 30%;
+    float: left;
 }
 
